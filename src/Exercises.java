@@ -66,6 +66,18 @@ public class Exercises {
     int start = 0;
     int end = list.length;
 
+    while (!isFound) {
+      int midpoint = (start + end) / 2;
+
+      if (list[midpoint].equals(target)) {
+        return midpoint;
+      } else if (list[midpoint].compareTo(target) < 0) {
+        end = midpoint;
+      } else if (list[midpoint].compareTo(target) > 0) {
+        start = midpoint;
+      }
+
+    }
     
     
     return -1;
