@@ -85,7 +85,7 @@ public class Exercises {
 
   public int[] bubble(int[] list, boolean ascending) {
     
-    if (list == null || list.length == 0 || ascending == null) {
+    if (list == null || list.length == 0) {
       return null;
     }
 
