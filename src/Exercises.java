@@ -94,12 +94,11 @@ public class Exercises {
     if (ascending) {
       for (int i = 0; i < arr.length -1; i++) {
         for (int j = 0; j < arr.length -1 -i; j++) {
-          if (arr[j] > arr[j+1]) 
-            { 
-              int temp = arr[j]; 
-              arr[j] = arr[j+1]; 
-              arr[j+1] = temp; 
-            } 
+          if (arr[j] > arr[j+1]) { 
+            int temp = arr[j]; 
+            arr[j] = arr[j+1]; 
+            arr[j+1] = temp; 
+          } 
         }
       }
     } else if (!ascending) {
@@ -128,12 +127,11 @@ public class Exercises {
     if (ascending) {
       for (int i = 0; i < arr.size() -1; i++) {
         for (int j = 0; j < arr.size() - 1 - i; j++) {
-          if (arr.get(j).compareTo(arr.get(j+1)) > 1)
-            { 
-              String temp = arr.get(j); 
-              arr.set(j, arr.get(j+1)); 
-              arr.set(j+1, temp); 
-            }
+          if (arr.get(j).compareTo(arr.get(j+1)) > 1) { 
+            String temp = arr.get(j); 
+            arr.set(j, arr.get(j+1)); 
+            arr.set(j+1, temp); 
+          }
         }
       }   
     } else if (!ascending) {
@@ -148,7 +146,7 @@ public class Exercises {
       }
     }
       
-    return null;
+    return arr;
   }
 
   public ArrayList<Integer> insertion(ArrayList<Integer> list, boolean ascending) {
