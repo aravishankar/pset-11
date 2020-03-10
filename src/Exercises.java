@@ -127,7 +127,7 @@ public class Exercises {
     if (ascending) {
       for (int i = 0; i < arr.size() -1; i++) {
         for (int j = 0; j < arr.size() - 1 - i; j++) {
-          if (arr.get(j).compareTo(arr.get(j+1)) > 1) { 
+          if (arr.get(j).compareTo(arr.get(j+1)) > 0) { 
             String temp = arr.get(j); 
             arr.set(j, arr.get(j+1)); 
             arr.set(j+1, temp); 
@@ -137,7 +137,7 @@ public class Exercises {
     } else if (!ascending) {
       for (int i = arr.size(); i > 1; i--) {
         for (int j = arr.size(); j > i - 1; j--) {
-          if (arr.get(j).compareTo(arr.get(j-1)) > 1) {
+          if (arr.get(j).compareTo(arr.get(j-1)) > 0) {
             String temp = arr.get(j);
             arr.set(j, arr.get(j - 1));
             arr.set(j - 1, temp);
@@ -203,7 +203,56 @@ public class Exercises {
   }
 
   public String[] insertion(String[] list, boolean ascending) {
-    return null;
+    
+    if (list == null || list.length == 0) {
+      return null;
+    }
+
+    String[] arr = list;
+
+    if (ascending) {
+      for (int i = 1; i < arr.length; i++) {
+        boolean isSorted = false;
+
+        while (!isSorted) {
+          for (int j = i; j >= 0; j--) {
+            if (arr[i].compareTo(arr[j]) < 0) {
+              int saved = arr[i];
+              for (int k = i - 1; k > j; k--) {
+                int temp = arr[k];
+                arr[k] = arr[k-1];
+                arr[k+1] = temp;
+              }
+              arr[j] = saved;
+              isSorted = true;
+              break;
+            }
+          }
+        }
+      }
+    } else if (!ascending) {
+      for (int i = 1; i < arr.length; i++) {
+        boolean isSorted = false;
+
+        while (!isSorted) {
+          for (int j = i; j >= 0; j--) {
+            if (arr[i].compareTo(arr[j]) > 0) {
+              int saved = arr[i];
+              for (int k = i - 1; k > j; k--) {
+                int temp = arr[k];
+                arr[k] = arr[k-1];
+                arr[k+1] = temp;
+              }
+              arr[j] = saved;
+            }
+            isSorted = true;
+            break;
+          }
+        }
+      }
+    }
+    
+    return arr;
   }
 
   public int[] selection(int[] list, boolean ascending) {
