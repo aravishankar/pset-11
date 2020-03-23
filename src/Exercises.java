@@ -27,9 +27,6 @@ import java.util.Collections;
 //But that the dread of something after death,
 //The undiscovere'd country, from whose bourn
 //No traveller returns, puzzles the will,
-//And makes us rather bear those ills we have
-//Than fly to others that we know not of?
-//Thus conscience does make cowards of us all,
 
 public class Exercises {
 
