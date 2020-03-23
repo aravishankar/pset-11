@@ -30,8 +30,6 @@ import java.util.Collections;
 //And makes us rather bear those ills we have
 //Than fly to others that we know not of?
 //Thus conscience does make cowards of us all,
-//And thus the native hue of resolution
-//Is sicklied o'er with the pale cast of thought,
 
 public class Exercises {
 
