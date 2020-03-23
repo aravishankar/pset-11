@@ -23,7 +23,6 @@ import java.util.Collections;
 //That patient merit of th'unworthy takes,
 //When he himself might his quietus make
 //With a bare bodkin? Who would fardels bear,
-//To grunt and sweat under a weary life,
 
 public class Exercises {
 
