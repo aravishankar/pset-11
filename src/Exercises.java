@@ -12,7 +12,6 @@ import java.util.Collections;
 //That flesh is heir to: 'tis a consummation
 //Devoutly to be wish'd. To die, to sleep;
 //To sleep, perchance to dream—ay, there's the rub:
-//For in that sleep of death what dreams may come,
 
 public class Exercises {
 
