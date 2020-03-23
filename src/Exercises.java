@@ -21,7 +21,6 @@ import java.util.Collections;
 //The pangs of dispriz'd love, the law's delay,
 //The insolence of office, and the spurns
 //That patient merit of th'unworthy takes,
-//When he himself might his quietus make
 
 public class Exercises {
 
