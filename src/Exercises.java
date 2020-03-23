@@ -22,7 +22,6 @@ import java.util.Collections;
 //The insolence of office, and the spurns
 //That patient merit of th'unworthy takes,
 //When he himself might his quietus make
-//With a bare bodkin? Who would fardels bear,
 
 public class Exercises {
 
