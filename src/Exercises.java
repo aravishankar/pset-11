@@ -20,7 +20,6 @@ import java.util.Collections;
 //Th'oppressor's wrong, the proud man's contumely,
 //The pangs of dispriz'd love, the law's delay,
 //The insolence of office, and the spurns
-//That patient merit of th'unworthy takes,
 
 public class Exercises {
 
