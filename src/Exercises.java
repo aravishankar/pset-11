@@ -13,7 +13,6 @@ import java.util.Collections;
 //Devoutly to be wish'd. To die, to sleep;
 //To sleep, perchance to dream—ay, there's the rub:
 //For in that sleep of death what dreams may come,
-//When we have shuffled off this mortal coil,
 
 public class Exercises {
 
