@@ -17,7 +17,6 @@ import java.util.Collections;
 //Must give us pause—there's the respect
 //That makes calamity of so long life.
 //For who would bear the whips and scorns of time,
-//Th'oppressor's wrong, the proud man's contumely,
 
 public class Exercises {
 
