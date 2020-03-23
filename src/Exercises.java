@@ -15,7 +15,6 @@ import java.util.Collections;
 //For in that sleep of death what dreams may come,
 //When we have shuffled off this mortal coil,
 //Must give us pause—there's the respect
-//That makes calamity of so long life.
 
 public class Exercises {
 
