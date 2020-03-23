@@ -18,7 +18,6 @@ import java.util.Collections;
 //That makes calamity of so long life.
 //For who would bear the whips and scorns of time,
 //Th'oppressor's wrong, the proud man's contumely,
-//The pangs of dispriz'd love, the law's delay,
 
 public class Exercises {
 
