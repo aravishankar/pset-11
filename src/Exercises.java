@@ -16,7 +16,6 @@ import java.util.Collections;
 //When we have shuffled off this mortal coil,
 //Must give us pause—there's the respect
 //That makes calamity of so long life.
-//For who would bear the whips and scorns of time,
 
 public class Exercises {
 
