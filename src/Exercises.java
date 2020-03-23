@@ -24,9 +24,6 @@ import java.util.Collections;
 //When he himself might his quietus make
 //With a bare bodkin? Who would fardels bear,
 //To grunt and sweat under a weary life,
-//But that the dread of something after death,
-//The undiscovere'd country, from whose bourn
-//No traveller returns, puzzles the will,
 
 public class Exercises {
 
